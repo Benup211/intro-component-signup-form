@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./myscript.js"></script>
+  <title>Intro component with sign up form</title>
+</head>
+<body>
+
+  <main class="lpage">
+    <div class="learn">
+      <div class="lcen">
+        <h1 class="hlogo">Learn to code by watching others</h1>
+        <p class="hdesc">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,but understanding how developers think is invaluable.</p>
+      </div>
+    </div>
+    <div class="tryform">
+      <div class="ltsign">
+        <div class="try">
+          <button><span class="font-semibold">Try it free 7 days</span> then $20/mo. thereafter</button>
+        </div>
+        <form action="submit" class="fval">
+          <div class="lform">
+            <input class="ival mb-3" type="text" name="firstname" id="fname" placeholder="First Name">
+            <p id="efname" class="pval hidden">First Name cannot be empty</p>
+            <input class="ival mb-3" type="text" name="lastname" id="lname" placeholder="Last Name">
+            <p id="elname" class="pval hidden">Last Name cannot be empty</p>
+            <input class="ival mb-3" type="email" name="semail" id="semail" placeholder="Email Address">
+            <p id="eemail" class="pval hidden">Looks like this is not an email</p>
+            <input class="ival mb-3" type="password" name="spassword" id="spassword" placeholder="Password">
+            <p id="epass" class="pval hidden">Password cannot be empty</p>
+            <input class="btn" type="button" value="CLAIM YOUR FREE TRIAL" onclick="ctrial()">
+            <p class="pterm1">By clicking the button, you are agreeing to our <span class="pterm2">Terms and Services</span></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p class="footerval">
+      Challenge by <a class="aval" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a class="aval" href="https://www.linkedin.com/in/benup-ghimire-9b9b19233/" target="_blank">Benup Ghimire</a>.
+    </p>
+  </footer>
+</body>
+</html>

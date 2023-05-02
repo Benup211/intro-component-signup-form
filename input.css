@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lpage{
+    @apply font-poppins w-full min-h-screen flex justify-center items-center ms:flex-col bg-mentor-red bg-[url('./images/bg-intro-desktop.png')] ms:bg-[url('./images/bg-intro-mobile.png')];
+}
+.learn{
+    @apply ms:w-11/12 w-1/2 h-full flex justify-center items-center ms:my-5;
+}
+.lcen{
+    @apply ms:w-full w-2/3 flex justify-center items-center flex-col;
+}
+.hlogo{
+    @apply text-5xl ms:text-3xl ms:text-center font-bold text-white mb-4;
+}
+.hdesc{
+    @apply text-sm font-medium text-gray-100 ms:text-center whitespace-normal;
+}
+.tryform{
+    @apply ms:w-full w-1/2 h-full flex justify-center ms:items-center items-start flex-col mb-5;
+}
+.ltsign{
+    @apply w-3/4 ms:w-11/12;
+}
+.try{
+    @apply w-full text-white text-center bg-mentor-blue rounded-lg px-2 py-3 mb-4 shadow-[0px_6px_1px_0px_rgba(0,0,0,0.2)] hover:bg-mentor-dark-blue;
+}
+.fval{
+    @apply bg-white ms:p-4 p-8 rounded-lg shadow-[0px_6px_1px_0px_rgba(0,0,0,0.2)];
+}
+.btn{
+    @apply w-full border-2 py-3 px-3 rounded-lg bg-mentor-green text-white font-semibold hover:opacity-50 shadow-[1px_2px_1px_0px_rgba(56,204,140,0.2)] mb-3;
+}
+.ival{
+    @apply w-full border-2 py-3 px-3 rounded-lg font-semibold;
+}
+.pval{
+    @apply w-full text-right text-xs text-mentor-red mb-3;
+}
+.pterm1{
+    @apply text-xs text-center w-full font-medium text-mentor-grayish-blue;
+}
+.pterm2{
+    @apply text-mentor-red font-semibold hover:underline;
+}
+.lform{
+    @apply flex flex-col justify-center items-start;
+}
+.aval{
+    @apply text-mentor-anchor;
+}
+.footerval{
+    @apply text-[11px] text-center;
+}
